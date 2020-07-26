@@ -118,6 +118,7 @@ ul {
 
 .icon {
   margin-right: 10px;
+  vertical-align: middle;
 }
 
 .info-item:not(:last-child) {
@@ -285,7 +286,7 @@ p {
   margin-right: 30px;
 }
 
-.size-two {
+.comand {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -324,16 +325,13 @@ p {
   margin-right: 10px;
 }
 
-.group-list {
+.group-title {
+  fill: #afb1b8;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
-}
-
-.group-title {
-  fill: #afb1b8;
 }
 
 .group-title:hover,
@@ -528,6 +526,14 @@ p {
 
 /*portfolio*/
 
+.button-list {
+  padding: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
 .button-list:hover,
 .button-list:focus {
   background-color: var(--accent-color);
@@ -535,6 +541,7 @@ p {
 }
 
 .button-list {
+  border: 0px;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
@@ -600,10 +607,7 @@ p {
 }
 
 .subtitle {
-  padding-top: 20px;
-  padding-bottom: 4px;
-  padding-right: 24px;
-  padding-left: 24px;
+  margin-bottom: 4px;
 }
 
 .description {
@@ -615,8 +619,9 @@ p {
   text-decoration: none;
 }
 
-.description {
-  padding-bottom: 20px;
+.edition-title {
+  padding-top: 20px;
   padding-right: 24px;
+  padding-bottom: 20px;
   padding-left: 24px;
 }
